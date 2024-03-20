@@ -1,0 +1,53 @@
+body {
+
+    background-color: rgb(212, 194, 161);
+
+}
+
+h1 {
+
+    color: rgb(89, 55, 30);
+}
+
+body {
+
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+p {
+    color: rgb(89, 55, 30);
+    background-color: rgb(187, 157, 105);
+}
+
+h2 {
+
+    text-transform: capitalize;
+    box-shadow: 1px solid;
+}
+
+li {
+
+    margin: 2em;
+}
+
+a {
+    color: rgb(89, 55, 30);
+    text-decoration: none;
+}
+
+
+.transition {
+    width: 50px; 
+    height: 50px;
+    background-image: url('../lab03/images/woodenSpoon.png');
+    background-repeat:repeat-x;
+    background-size: cover;
+    border: dotted;
+  }
+
+img {
+    border-radius: 10%;
+    max-width: 50%;
+    display: block;
+
+}
