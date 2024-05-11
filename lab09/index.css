@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(38, 54, 48);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+#wrap {
+    background-color: aliceblue;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.head {
+    color: aliceblue;
+    background-color: rgb(91, 128, 102);
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+p {
+    text-align: justify;
+    line-height: 2em;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-decoration: overline;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 768px) {
+    #wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .head {
+        flex-basis: 100%;
+    }
+
+    .information,
+    .likes {
+        flex-basis: calc(50% - 1em);
+        margin-right: 1em;
+    }
+
+    .information:last-child,
+    .likes:last-child {
+        margin-right: 0;
+    }
+}
